@@ -1,0 +1,31 @@
+1- Every BIG function is realy a CLASS with many little functions inside it.
+   notice that you make the local variable of the function class attriputes,
+   and whatever that big funciton manipulate them will be the member functions.
+
+2-"NEVER UNDERESTMATE YOUR POWER, YOU ARE THE ONE'S WHO KNOW." uncle Bob to the programmers.
+
+3- A function should not be have more than two level of indention. it is better to have
+   NO level of indenting.
+
+4- A function SHOULD NOT be greater than 5 lines.
+
+5- A function should not take more than 3 arguments.
+   if a function should take more than 3 arguments may be they should be an OBJECT.
+
+6- Don't pass boolean to functions. because if you do they must be an if statment in
+   that function that has two branches, instead you may make two function for each 
+   branch and call the appropriate function, with out passing a boolean variable.
+
+7- Do not use switch statments, because they are in all the system and you may forget
+   how they work, what is the logical order to put a new case. Instead you may use 
+   polymorphism.
+
+8- The open/closed syste: a good system should be open for extending but close for modifing.
+
+9- Side-effect: a side effect happens when the state of the system changes.(open,close)(new,del)
+   you may write functions that deal with that by passing lamdas.
+
+10- A function that return void should have a side effect.and a function that return not void 
+    shoud has not side effects and this is called command aquary separation.
+
+11- DRY(don't repeat yourself) avoid copy and paste
